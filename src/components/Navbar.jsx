@@ -71,7 +71,7 @@ const Navbar = () => {
             </div>
         </div>
         {showProfile === 1 ?                                                               /*52 48*/
-            <div className={`fixed size-48 bg-gray-800 z-50 lg:right-8 lg:top-0 md:top-60 sm:top-60 sm:ml-5 md:ml-5 mt-16 rounded-xl py-5 px-8 md:px-8 sm:px-8 lg:justify-around md:justify-between sm:justify-between items-center transition-transform duration-1000 ${showNavbar === true ? 'visible' : 'hidden'}`}>
+            <div className={`fixed size-48 bg-gray-800 z-50 top-60 ml-5 lg:right-8 lg:top-0 md:top-60 sm:top-60 sm:ml-5 md:ml-5 mt-16 rounded-xl py-5 px-8 lg:justify-around md:justify-between sm:justify-between items-center transition-transform duration-1000 ${showNavbar === true ? 'visible' : 'hidden'}`}>
               <ul className="flex flex-col text-lg gap-2">
                   <a className="flex justify-between" href="https://github.com/akarshanyadav8116?tab=repositories" target="_blank"><li className="flex mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2 gap-2"><IoLogoGithub />Github</li></a>
                   <a className="flex justify-between" href="https://www.linkedin.com/in/akarshan-yadav-632789228/" target="_blank"><li className="flex mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2 gap-2"><FaLinkedin/>Linkedin</li></a>
@@ -82,14 +82,14 @@ const Navbar = () => {
           null}
         {showDropDown === 1 ? (
             <div className={`fixed bg-gray-800 z-50 left-5 mt-14 rounded-xl py-5 px-8 md:px-8 sm:px-8 lg:justify-around md:justify-between sm:justify-between items-center transition-transform duration-1000 ${showNavbar === true ? 'visible' : 'hidden'}`}>
-                <ul className="hidden lg:hidden md:block sm:block gap-x-20 text-lg">
+                <ul className="block lg:hidden md:block sm:block gap-x-20 text-lg">
                     <a className="flex justify-start" href="#home"><li className="mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2">Home</li></a>
                     <a className="flex justify-start" href="#about"><li className="mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2">About Me</li></a>
                     <a className="flex justify-start" href="#skills"><li className="mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2">Skills</li></a>
                     <a className="flex justify-start" href="#projects"><li className="mb-2 cursor-pointer hover:border-cyan-400 hover:border-b-2">Projects</li></a>
                     <a className="flex justify-start" href="#contact"><li className="mb-3 cursor-pointer hover:border-cyan-400 hover:border-b-2">Contact Me</li></a>
                 </ul>
-              <button onClick={() => {setshowProfile(showProfile^1)}}><div className="hidden lg:hidden md:block sm:block w-32 cursor-pointer text-center text-lg rounded-3xl border-2 border-cyan-400 p-1 hover:bg-cyan-400 hover:transition-transform hover:-translate-y-2 hover:duration-500 duration-500"><h1>My Profile</h1></div></button>
+              <button onClick={() => {setshowProfile(showProfile^1)}}><div className="block lg:hidden md:block sm:block w-32 cursor-pointer text-center text-lg rounded-3xl border-2 border-cyan-400 p-1 hover:bg-cyan-400 hover:transition-transform hover:-translate-y-2 hover:duration-500 duration-500"><h1>My Profile</h1></div></button>
             </div>) 
           : null}
     </>;
