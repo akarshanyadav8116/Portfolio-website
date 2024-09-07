@@ -1,7 +1,6 @@
 
 import {EducationCardsData} from "./constants";
 
-
 const AboutMeCard = () => {
   return (
     <>

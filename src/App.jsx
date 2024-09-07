@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import './App.css';
 import { BgImage } from "./components/BgImage";
 import Home from "./components/Home";
-import AboutMe from "./components/Aboutme";
+import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
