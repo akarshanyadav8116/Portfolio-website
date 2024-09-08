@@ -4,7 +4,7 @@ import {IoLogoGithub} from "react-icons/io"
 const ProjectCard = ({project,techstack,url,alter,desc,link}) => {
   return (
     <>
-        <div className="group flex flex-col size-5/6 lg:size-1/3 md:size-1/3 sm:size-5/6 p-5 border-2 border-cyan-400 rounded-3xl text-3xl font-normal gap-3 shadow-lg shadow-cyan-400 hover:border-indigo-500 hover:shadow-indigo-400 hover:shadow-xl hover:-translate-y-2 ease-in-out duration-500">
+        <div className="group flex flex-col size-5/6 lg:size-1/3 md:size-4/5 sm:size-5/6 p-5 border-2 border-cyan-400 rounded-3xl text-3xl font-normal gap-3 shadow-lg shadow-cyan-400 hover:border-indigo-500 hover:shadow-indigo-400 hover:shadow-xl hover:-translate-y-2 ease-in-out duration-500">
             {project}
             <ul className="flex flex-wrap font-light text-sm gap-3">
                 {techstack.map((tech,index) => (
