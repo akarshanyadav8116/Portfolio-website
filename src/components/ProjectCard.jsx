@@ -26,7 +26,7 @@ const ProjectCard = ({project,techstack,url,alter,desc,link}) => {
                 alt={alter}
             />
             </Tilt>
-            <p className="text-base font-light hidden lg:block md:block sm:hidden group-hover:sm:block group-hover:block">
+            <p className="text-base font-light block">
                 {desc}
             </p>
             <a href={link} target="_blank"><div className="flex p-1 gap-1 mx-0 lg:mx-20 md:mx-20 sm:mx-0 text-xl justify-center border-2 border-cyan-400 rounded-full hover:bg-indigo-500 group-hover:border-indigo-500 duration-500"><IoLogoGithub className="lg:visible md:visible sm:visible visible"/><h1 className="text-base">Link</h1></div></a>
