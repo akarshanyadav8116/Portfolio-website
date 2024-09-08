@@ -8,7 +8,7 @@ export default {
     extend: {
       animation: {
         moveUp: 'moveUp ease-in-out 2s',
-        levitate: 'levitate ease-in 1.9s',
+        levitate: 'levitate ease-in-out 1.9s infinite',
         appearRight: 'appearRight 1.5s ease-in',
         appearLeft: 'appearLeft 1.5s ease-in',
         appear: 'appear 1.5s ease-in',

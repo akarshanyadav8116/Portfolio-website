@@ -66,7 +66,7 @@ function App() {
 				<hr id="projects" className="mt-40 mb-32 w-3/4 mx-auto border-b-2 opacity-20" />
 				<Projects visible={visible.projects} myref={sectionsRef}/>
 				<hr className="mt-32 mb-20 w-3/4 mx-auto border-b-2 opacity-20" />
-				<ContactMe b={animate} visible={visible.contactme} myref={sectionsRef}/>
+				<ContactMe visible={visible.contactme} myref={sectionsRef}/>
 				<Footer/>
 			</div>
 		</>

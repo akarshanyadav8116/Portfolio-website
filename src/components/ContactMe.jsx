@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Tilt } from 'react-tilt';
-const ContactMe = ({b, visible, myref}) => {
+const ContactMe = ({visible, myref}) => {
     const form=useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -50,7 +50,7 @@ const ContactMe = ({b, visible, myref}) => {
                         'max-glare': 0.5, // Maximum intensity of the glare effect
                         }}
                     >
-                    <img className={`size-full ${b === true ? 'animate-levitate':null}`} src="../assets/Contact pic.svg" alt="contact me" />
+                    <img className="size-full animate-levitate" src="../assets/Contact pic.svg" alt="contact me" />
                     </Tilt>
                 </div>
                 </div>

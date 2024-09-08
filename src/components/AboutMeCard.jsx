@@ -23,8 +23,8 @@ const AboutMeCard = () => {
                 <li className="text-base mt-5">
                     {card.details}
                     <ul className="flex flex-wrap mt-1 ml-4 list-disc gap-5 lg:gap-10 md:gap-10 sm:gap-10 ">
-                        {card.subjects.forEach((subject) => (
-                            <li>{subject}</li>
+                        {card.subjects.map((subject,index) => (
+                            <li key={index}>{subject}</li>
                         ))}
                     </ul>
                 </li>

@@ -61,7 +61,7 @@ const Home = ({s,b}) => {
             <img
                 src="../assets/portfolio image 4.png"
                 alt="my image"
-                className="backdrop-blur-sm border-b-4 border-cyan-400 animate-fadeInSlow brightness-90 hover:transition-opacity hover:ease-in-out rounded-full animate-appearRight delay-1000"
+                className="backdrop-blur-sm border-b-4 border-cyan-400 animate-levitate brightness-90 hover:transition-opacity hover:ease-in-out rounded-full delay-1000"
             />
         </Tilt>
         </div>
