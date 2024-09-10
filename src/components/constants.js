@@ -90,6 +90,12 @@ export const SkillCardsData = [
         url : "../assets/tailwind.svg",
         altertxt : "tailwind"
     },
+
+    {
+        id : 11,
+        url : "../assets/sql.svg",
+        altertxt : "sql"
+    }
 ]
 
 export const ProjectCardsData = [
