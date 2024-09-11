@@ -21,9 +21,9 @@ const Footer = () => {
             </div>
             <div className="h-1/3 w-full justify-center items-center flex text-lg">
                 <ul className="flex gap-5">
-                    <a href="https://github.com/akarshanyadav8116?tab=repositories"><li className="hover:text-cyan-400"><IoLogoGithub className="size-6"/></li></a>
-                    <a href="https://github.com/akarshanyadav8116?tab=repositories"><li className="hover:text-cyan-400"><FaLinkedin className="size-6"/></li></a>
-                    <a href="https://www.instagram.com/akarshan_86/"><li className="hover:text-cyan-400"><IoLogoInstagram className="size-6"/></li></a>
+                    <a href="https://github.com/akarshanyadav8116?tab=repositories" target="_blank"><li className="hover:text-cyan-400"><IoLogoGithub className="size-6"/></li></a>
+                    <a href="https://www.linkedin.com/in/akarshan-yadav-632789228/" target="_blank"><li className="hover:text-cyan-400"><FaLinkedin className="size-6"/></li></a>
+                    <a href="https://www.instagram.com/akarshan_86/" target="_blank"><li className="hover:text-cyan-400"><IoLogoInstagram className="size-6"/></li></a>
                 </ul>
             </div>
             <div className="flex h-1/3 w-full justify-center items-center text-center text-sm lg:text-base md:text-base sm:text-sm font-normal hover:text-cyan-400">
