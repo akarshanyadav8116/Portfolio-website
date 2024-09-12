@@ -2,11 +2,12 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Tilt } from 'react-tilt';
+
 const ContactMe = ({visible, myref}) => {
     const form=useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_yejhtnf', 'template_0txz2wp', form.current, 'wcIEco4uCAAHS5AwZ')
+        emailjs.sendForm(import.meta.env.VITE_SERVICEID, import.meta.env.VITE_TEMPLATEID, form.current, import.meta.env.VITE_USERID)
             .then((result) => {
                 console.log('Success:', result.text);
             }, (error) => {
