@@ -14,7 +14,7 @@ export const EducationCardsData = [
         qualification : "Senior Secondary Education (12th Standard)",
         school : " Dr. Virendra Swarup Education Centre(Sr. Wing), Shyam Nagar, Kanpur, Uttar Pradesh",
         date : "Mar 2019 - Mar 2020",
-        score : "Secured an 89.2 percent aggregate",
+        score : "",
         details : "I completed my class 12th senior secondary education from Dr. Virendra Swarup Education Centre, Shyam Nagar, Kanpur in the year 2020 and secured a percent aggregate of 89.2% in science stream which consisted of the following subjects:",
         subjects : ["Physics", "Chemistry", "Maths", "Computer Science","English"]
     },
@@ -24,7 +24,7 @@ export const EducationCardsData = [
         qualification : "Higher School Education or 10th Standard",
         school : " Dr. Virendra Swarup Education Centre(Sr. Wing), Shyam Nagar, Kanpur, Uttar Pradesh",
         date : "Mar 2017 - Mar 2018",
-        score : "Secured an 89.3 percent aggregate",
+        score : "",
         details : "I completed my class 10th high school education from Dr. Virendra Swarup Education Centre, Shyam Nagar, Kanpur in the year 2018 and secured a percent aggregate of 89.3%",
         subjects : []
     }
